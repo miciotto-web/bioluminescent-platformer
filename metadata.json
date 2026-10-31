@@ -1,0 +1,6 @@
+{
+  "name": "Luce contro Tenebre",
+  "description": "Prototipo giocabile 2D Action-Platformer (Fase 1 Vertical Slice) in cui una creatura bioluminescente esplora, combatte e purifica un mondo divorato dalle Tenebre.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

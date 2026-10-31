@@ -1,0 +1,65 @@
+[gd_scene load_steps=6 format=3 uid="uid://lucecontrotenebre_level1"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
+[ext_resource type="Script" path="res://scripts/light_system.gd" id="2_light"]
+[ext_resource type="Script" path="res://scripts/shadow_creature.gd" id="3_enemy"]
+[ext_resource type="Script" path="res://scripts/corrupted_zone.gd" id="4_purify"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="5_hud"]
+
+[node name="MainLevel" type="Node2D"]
+
+[node name="DarknessCanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.06, 0.05, 0.12, 1)
+
+[node name="PlayerCreature" type="CharacterBody2D" parent="."]
+position = Vector2(220, 476)
+script = ExtResource("1_player")
+
+[node name="LightSystem" type="Node" parent="PlayerCreature"]
+script = ExtResource("2_light")
+
+[node name="PointLight2D" type="PointLight2D" parent="PlayerCreature"]
+color = Color(1, 0.94, 0.54, 1)
+energy = 1.35
+
+[node name="Section1_IngressoForesta" type="Node2D" parent="."]
+position = Vector2(0, 0)
+
+[node name="Section2_SentieroSpezzato" type="Node2D" parent="."]
+position = Vector2(1850, 0)
+
+[node name="Checkpoint1_Sentiero" type="Marker2D" parent="Section2_SentieroSpezzato"]
+position = Vector2(110, 440)
+
+[node name="Section3_BoscoCorrotto" type="Node2D" parent="."]
+position = Vector2(3880, 0)
+
+[node name="Section4_RadureDimenticate" type="Node2D" parent="."]
+position = Vector2(5960, 0)
+
+[node name="Checkpoint2_Radure" type="Marker2D" parent="Section4_RadureDimenticate"]
+position = Vector2(150, 440)
+
+[node name="SecretPath_SantuarioAlture" type="Area2D" parent="Section4_RadureDimenticate"]
+position = Vector2(760, 226)
+
+[node name="Section5_CuoreAvvizzito" type="Node2D" parent="."]
+position = Vector2(7640, 0)
+
+[node name="Checkpoint3_Cuore" type="Marker2D" parent="Section5_CuoreAvvizzito"]
+position = Vector2(-260, 405)
+
+[node name="AltareRinascitaPortal" type="Area2D" parent="Section5_CuoreAvvizzito"]
+position = Vector2(1350, 330)
+
+[node name="ShadowCreature" type="CharacterBody2D" parent="."]
+position = Vector2(1240, 446)
+script = ExtResource("3_enemy")
+
+[node name="CorruptedZone" type="Area2D" parent="."]
+position = Vector2(1065, 380)
+script = ExtResource("4_purify")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("5_hud")
+

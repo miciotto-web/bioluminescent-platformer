@@ -1,0 +1,527 @@
+{
+  "version": "1.3.0",
+  "generatedAt": "2026-10-30T19:51:16.121Z",
+  "totalAssets": 36,
+  "assets": [
+    {
+      "path": "/assets/characters/protagonist/idle/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/idle/spritesheet.png",
+      "category": "protagonist",
+      "width": 1024,
+      "height": 128,
+      "bytes": 64359,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.698,
+      "opaqueRatio": 0.124,
+      "animation": "idle",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/run/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/run/spritesheet.png",
+      "category": "protagonist",
+      "width": 1024,
+      "height": 128,
+      "bytes": 41943,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.704,
+      "opaqueRatio": 0.124,
+      "animation": "run",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/jump/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/jump/spritesheet.png",
+      "category": "protagonist",
+      "width": 768,
+      "height": 128,
+      "bytes": 52674,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.699,
+      "opaqueRatio": 0.125,
+      "animation": "jump",
+      "frameCount": 6,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/fall/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/fall/spritesheet.png",
+      "category": "protagonist",
+      "width": 512,
+      "height": 128,
+      "bytes": 32721,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.696,
+      "opaqueRatio": 0.122,
+      "animation": "fall",
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/attack/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/attack/spritesheet.png",
+      "category": "protagonist",
+      "width": 768,
+      "height": 128,
+      "bytes": 61359,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.692,
+      "opaqueRatio": 0.126,
+      "animation": "attack",
+      "frameCount": 6,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/damage/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/damage/spritesheet.png",
+      "category": "protagonist",
+      "width": 512,
+      "height": 128,
+      "bytes": 38274,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.682,
+      "opaqueRatio": 0.125,
+      "animation": "damage",
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/death/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/death/spritesheet.png",
+      "category": "protagonist",
+      "width": 1024,
+      "height": 128,
+      "bytes": 85145,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.744,
+      "opaqueRatio": 0.061,
+      "animation": "death",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/protagonist/purify/spritesheet.png",
+      "godotPath": "res://assets/characters/protagonist/purify/spritesheet.png",
+      "category": "protagonist",
+      "width": 1024,
+      "height": 128,
+      "bytes": 74323,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.68,
+      "opaqueRatio": 0.128,
+      "animation": "purify",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/enemies/shadow_creature/idle/spritesheet.png",
+      "godotPath": "res://assets/characters/enemies/shadow_creature/idle/spritesheet.png",
+      "category": "enemy_shadow_creature",
+      "width": 1024,
+      "height": 128,
+      "bytes": 57772,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.731,
+      "opaqueRatio": 0.134,
+      "animation": "idle",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/enemies/shadow_creature/patrol/spritesheet.png",
+      "godotPath": "res://assets/characters/enemies/shadow_creature/patrol/spritesheet.png",
+      "category": "enemy_shadow_creature",
+      "width": 1024,
+      "height": 128,
+      "bytes": 58386,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.728,
+      "opaqueRatio": 0.133,
+      "animation": "patrol",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/enemies/shadow_creature/chase/spritesheet.png",
+      "godotPath": "res://assets/characters/enemies/shadow_creature/chase/spritesheet.png",
+      "category": "enemy_shadow_creature",
+      "width": 1024,
+      "height": 128,
+      "bytes": 65103,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.721,
+      "opaqueRatio": 0.136,
+      "animation": "chase",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/enemies/shadow_creature/attack/spritesheet.png",
+      "godotPath": "res://assets/characters/enemies/shadow_creature/attack/spritesheet.png",
+      "category": "enemy_shadow_creature",
+      "width": 768,
+      "height": 128,
+      "bytes": 49436,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.723,
+      "opaqueRatio": 0.13,
+      "animation": "attack",
+      "frameCount": 6,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/enemies/shadow_creature/hit/spritesheet.png",
+      "godotPath": "res://assets/characters/enemies/shadow_creature/hit/spritesheet.png",
+      "category": "enemy_shadow_creature",
+      "width": 512,
+      "height": 128,
+      "bytes": 36778,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.727,
+      "opaqueRatio": 0.131,
+      "animation": "hit",
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/characters/enemies/shadow_creature/death/spritesheet.png",
+      "godotPath": "res://assets/characters/enemies/shadow_creature/death/spritesheet.png",
+      "category": "enemy_shadow_creature",
+      "width": 1024,
+      "height": 128,
+      "bytes": 83455,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.767,
+      "opaqueRatio": 0.065,
+      "animation": "death",
+      "frameCount": 8,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "anchor": {
+        "x": 64,
+        "y": 112
+      }
+    },
+    {
+      "path": "/assets/environments/tilesets/platform_moss_stone.png",
+      "godotPath": "res://assets/environments/tilesets/platform_moss_stone.png",
+      "category": "tileset",
+      "width": 136,
+      "height": 58,
+      "bytes": 21183,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.053,
+      "opaqueRatio": 0.712
+    },
+    {
+      "path": "/assets/environments/tilesets/platform_ancient_ruin.png",
+      "godotPath": "res://assets/environments/tilesets/platform_ancient_ruin.png",
+      "category": "tileset",
+      "width": 106,
+      "height": 58,
+      "bytes": 16633,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.056,
+      "opaqueRatio": 0.7
+    },
+    {
+      "path": "/assets/environments/tilesets/platform_corrupted_ledge.png",
+      "godotPath": "res://assets/environments/tilesets/platform_corrupted_ledge.png",
+      "category": "tileset",
+      "width": 136,
+      "height": 58,
+      "bytes": 20256,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.053,
+      "opaqueRatio": 0.712
+    },
+    {
+      "path": "/assets/environments/tilesets/platform_sanctuary_altar.png",
+      "godotPath": "res://assets/environments/tilesets/platform_sanctuary_altar.png",
+      "category": "tileset",
+      "width": 136,
+      "height": 58,
+      "bytes": 21140,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.053,
+      "opaqueRatio": 0.712
+    },
+    {
+      "path": "/assets/environments/tilesets/stone_pillar_short.png",
+      "godotPath": "res://assets/environments/tilesets/stone_pillar_short.png",
+      "category": "tileset",
+      "width": 39,
+      "height": 139,
+      "bytes": 14438,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.065,
+      "opaqueRatio": 0.562
+    },
+    {
+      "path": "/assets/environments/tilesets/stone_pillar_tall.png",
+      "godotPath": "res://assets/environments/tilesets/stone_pillar_tall.png",
+      "category": "tileset",
+      "width": 47,
+      "height": 163,
+      "bytes": 17759,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.054,
+      "opaqueRatio": 0.591
+    },
+    {
+      "path": "/assets/environments/decorations/mushroom_cyan.png",
+      "godotPath": "res://assets/environments/decorations/mushroom_cyan.png",
+      "category": "decoration",
+      "width": 119,
+      "height": 147,
+      "bytes": 35735,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.431,
+      "opaqueRatio": 0.273
+    },
+    {
+      "path": "/assets/environments/decorations/crystal_violet.png",
+      "godotPath": "res://assets/environments/decorations/crystal_violet.png",
+      "category": "decoration",
+      "width": 45,
+      "height": 124,
+      "bytes": 9957,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.532,
+      "opaqueRatio": 0.196
+    },
+    {
+      "path": "/assets/environments/decorations/ruin_arch.png",
+      "godotPath": "res://assets/environments/decorations/ruin_arch.png",
+      "category": "decoration",
+      "width": 61,
+      "height": 99,
+      "bytes": 10559,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.504,
+      "opaqueRatio": 0.167
+    },
+    {
+      "path": "/assets/environments/decorations/moss_archway.png",
+      "godotPath": "res://assets/environments/decorations/moss_archway.png",
+      "category": "decoration",
+      "width": 113,
+      "height": 105,
+      "bytes": 18853,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.582,
+      "opaqueRatio": 0.094
+    },
+    {
+      "path": "/assets/environments/decorations/hanging_lantern.png",
+      "godotPath": "res://assets/environments/decorations/hanging_lantern.png",
+      "category": "decoration",
+      "width": 49,
+      "height": 134,
+      "bytes": 12717,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.495,
+      "opaqueRatio": 0.19
+    },
+    {
+      "path": "/assets/environments/forest/tree_corrupted_0.png",
+      "godotPath": "res://assets/environments/forest/tree_corrupted_0.png",
+      "category": "purification",
+      "width": 162,
+      "height": 94,
+      "bytes": 47628,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.384,
+      "opaqueRatio": 0.26
+    },
+    {
+      "path": "/assets/environments/forest/tree_transforming_50.png",
+      "godotPath": "res://assets/environments/forest/tree_transforming_50.png",
+      "category": "purification",
+      "width": 191,
+      "height": 94,
+      "bytes": 63968,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.381,
+      "opaqueRatio": 0.265
+    },
+    {
+      "path": "/assets/environments/forest/tree_purified_100.png",
+      "godotPath": "res://assets/environments/forest/tree_purified_100.png",
+      "category": "purification",
+      "width": 211,
+      "height": 94,
+      "bytes": 71762,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.38,
+      "opaqueRatio": 0.271
+    },
+    {
+      "path": "/assets/environments/backgrounds/bg_layer_1_sky_citadel.png",
+      "godotPath": "res://assets/environments/backgrounds/bg_layer_1_sky_citadel.png",
+      "category": "background",
+      "width": 432,
+      "height": 353,
+      "bytes": 493974,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.02,
+      "opaqueRatio": 0.618
+    },
+    {
+      "path": "/assets/environments/backgrounds/bg_layer_2_midground_ruins.png",
+      "godotPath": "res://assets/environments/backgrounds/bg_layer_2_midground_ruins.png",
+      "category": "background",
+      "width": 631,
+      "height": 318,
+      "bytes": 653760,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.015,
+      "opaqueRatio": 0.657
+    },
+    {
+      "path": "/assets/environments/backgrounds/bg_layer_3_foreground_roots.png",
+      "godotPath": "res://assets/environments/backgrounds/bg_layer_3_foreground_roots.png",
+      "category": "background",
+      "width": 736,
+      "height": 68,
+      "bytes": 125408,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.325,
+      "opaqueRatio": 0.172
+    },
+    {
+      "path": "/assets/effects/light_beam_spritesheet.png",
+      "godotPath": "res://assets/effects/light_beam_spritesheet.png",
+      "category": "effects",
+      "width": 512,
+      "height": 128,
+      "bytes": 71563,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.677,
+      "opaqueRatio": 0.098,
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128
+    },
+    {
+      "path": "/assets/effects/hit_impact_spritesheet.png",
+      "godotPath": "res://assets/effects/hit_impact_spritesheet.png",
+      "category": "effects",
+      "width": 768,
+      "height": 128,
+      "bytes": 156093,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.584,
+      "opaqueRatio": 0.024,
+      "frameCount": 6,
+      "frameWidth": 128,
+      "frameHeight": 128
+    },
+    {
+      "path": "/assets/effects/purify_wave_spritesheet.png",
+      "godotPath": "res://assets/effects/purify_wave_spritesheet.png",
+      "category": "effects",
+      "width": 768,
+      "height": 128,
+      "bytes": 101158,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.741,
+      "opaqueRatio": 0.003,
+      "frameCount": 6,
+      "frameWidth": 128,
+      "frameHeight": 128
+    },
+    {
+      "path": "/assets/effects/particles_spritesheet.png",
+      "godotPath": "res://assets/effects/particles_spritesheet.png",
+      "category": "effects",
+      "width": 512,
+      "height": 128,
+      "bytes": 89352,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.658,
+      "opaqueRatio": 0.071,
+      "frameCount": 4,
+      "frameWidth": 128,
+      "frameHeight": 128
+    },
+    {
+      "path": "/assets/ui/golden_hearts_strip.png",
+      "godotPath": "res://assets/ui/golden_hearts_strip.png",
+      "category": "ui",
+      "width": 115,
+      "height": 37,
+      "bytes": 2550,
+      "format": "PNG (RGBA 8-bit)",
+      "transparentRatio": 0.841,
+      "opaqueRatio": 0.017
+    }
+  ]
+}
